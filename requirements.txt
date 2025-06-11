@@ -6,4 +6,4 @@ requests
 certifi
 
 
--e .
+## -e .
