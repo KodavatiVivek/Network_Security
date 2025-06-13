@@ -6,6 +6,9 @@ from Networksecurity.constants import training_pipeline
 from Networksecurity.logging.logger import logging
 from Networksecurity.exceptions.exception import NetworkSecurityException
 
+print(training_pipeline.PIPELINE_NAME)
+print(training_pipeline.ARTIFACT_DIR)
+
 class TrainingPipelineConfig:
     def __init__(self,timestamp=datetime.now().strftime("%Y-%m-%d_%H-%M-%S")):
         try:
