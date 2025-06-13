@@ -1,2 +1,20 @@
 venv
 .env
+.logs
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore coverage reports
+
+.coverage
+# Ignore virtual environment directories
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+# Ignore log files
+*.log
+# Ignore build directories  
+build/
+
